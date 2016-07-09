@@ -1,2 +1,4 @@
-# tensorflow-hints
-Hints and tricks for Tensorflow
+# TensorFlow Hints & Tricks
+
+
+## [Maximize (Implement Gradient Ascent)](./maximize)
