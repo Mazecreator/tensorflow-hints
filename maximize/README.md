@@ -12,8 +12,8 @@ I have a few options in this section of the hints.
 
 You can simple add a small python function to your code as offered by one of the contributors [girving](https://github.com/girving):
 
-    def maximize(optimizer, value, ...):
-      return optimizer.minimize(-value, ...)
+    def maximize(optimizer, value, **kwargs):
+      return optimizer.minimize(-value, **kwargs)
 
 
 If you have the developer version of TensorFlow on your system, you can add the "maximize()" function to your distribution.  Please see the "tensorflow update" folder for the "optimizer.py" and "README.md" file with instructions.
